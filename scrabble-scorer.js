@@ -99,11 +99,11 @@ function scorerPrompt(word) {
    //    Number(input.question("Invalid option. Please choose 0, 1, or 2 to score your word: "));
    // }
    if (choice == 0) {
-      return scoringAlgorithms[0].scoringFunction(word);
+      return scoringAlgorithms[0].scorerFunction(word);
    } else if (choice == 1) {
-      return scoringAlgorithms[1].scoringFunction(word);
+      return scoringAlgorithms[1].scorerFunction(word);
    } else {
-      return scoringAlgorithms[2].scoringFunction(word);
+      return scoringAlgorithms[2].scorerFunction(word);
    }
 }
 
